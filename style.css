@@ -1,0 +1,207 @@
+/* === BODY === */
+
+* {
+  font-family: "Open Sans";
+}
+
+/* === NAVBAR === */
+
+.nav {
+  display: flex;
+  position: fixed;
+  padding-bottom: 0;
+  width: 100%;
+}
+
+.logo-barra {
+  margin-left: 3em;
+}
+
+.vaccinationLogo {
+  color: #2949c7;
+  font-size: 25px;
+}
+
+.ligas {
+  flex-direction: row-reverse;
+  margin-left: 25%;
+  margin-right: 4em;
+}
+
+li {
+  margin-left: 50px;
+  color: #244275;
+  font-weight: bolder;
+}
+
+.hoaxColor {
+  background-color: #2949c7;
+  color: #fff;
+}
+
+/* === SECCIÓN 1 === */
+
+.seccion-uno {
+  display: flex;
+  flex-direction: row;
+  height: 30em;
+}
+
+.div-uno {
+  width: 50vw;
+}
+
+.triangulo-1 {
+  /* display: flex;
+  position: relative; */
+  margin-left: 70px;
+  width: 0;
+  height: 0;
+  border-right: 40px solid transparent;
+  border-left: 40px solid transparent;
+  border-top: 40px solid rgba(221, 221, 221, 0.671);
+  /* border-bottom: 200px solid transparent; */
+}
+
+
+.triangulo-icons {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.triangulo-2 {
+  /* display: flex;
+  position: relative; */
+  /* height: 0; */
+  /* position: flex; */
+  /* margin-left: 10%; */
+  justify-content: flex-end !important;
+  margin-top: 5%;
+  border-right: 60px solid rgba(221, 221, 221, 0.671);
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+}
+
+h3 {
+  /* align-items: center;
+  text-align: justify; */
+  font-size: 50px;
+  font-weight: bolder;
+  color: #244275;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+.parrafo {
+  /* width: 100%; */
+  align-items: center;
+  /* margin-right: -60px !important; */
+  margin-left: 100px;
+  color: rgb(138, 138, 138);
+}
+
+.parrafo-detalles {
+  color: #244275;
+  display: inline;
+  /* top: 0; */
+}
+
+.icono-amarillo {
+  color: #ffd012;
+  margin-left: 30px;
+  /* top: 0; */
+  -webkit-box-reflect: below 0px
+  linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+  background-color: rgba(229, 255, 0, 0.1);
+  padding: 4px;
+  border-radius: 10%;
+}
+
+.icono-azul {
+  color: #2949c7;
+  margin-left: 90px;
+  -webkit-box-reflect: below 0px
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+  background-color: rgba(41, 73, 199, 0.1);
+  padding: 4px;
+  border-radius: 10%;
+}
+
+.schedule {
+  margin-top: 80px;
+}
+
+
+.div-dos {
+  width: 50vw;
+}
+
+.nurse-img {
+  /* background-image: url('./img/female-nurse.jpeg'); */
+  height: 120% !important;
+  width: 100% !important;
+}
+
+/* === VACCINE INFO === */
+
+.vaccine-card {
+  width: 67%;
+  display: inline-flex;
+  margin-top: 150px;
+  margin-left: 4em;
+  align-items: center !important;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.vaccine-card-secundary {
+  display: inline-block;
+  width: 90vw;
+}
+
+.card-body {
+  display: inline-flex;
+  align-items: center;
+}
+
+.vaxIcons {
+  color: #2949c7;
+  margin-left: 6rem;
+  background-color: rgba(41, 73, 199, 0.1);
+  padding: 4px;
+  border-radius: 10%;
+}
+
+.LocationIcon {
+  margin-left: 10px !important;
+}
+
+.vaccineDate, .parrafoVacuna {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin-right: 100px;
+}
+
+.vaccineDate-text {
+  font-family: sans-serif;
+  font-size: 1.2em;
+  font-weight: 900;
+  margin-left: 10px;
+  display: inline-flex;
+}
+
+.vaccine-card-button {
+  width: 20%;
+  text-align: center;
+  align-items: center;
+  vertical-align: bottom;
+  padding: 12px;
+}
+
+.vaccine-card-button-1 {
+  padding-left: 25px;
+  padding-right: 25px;
+}
