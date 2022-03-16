@@ -1,9 +1,12 @@
+/* ============ */
 /* === BODY === */
 
 * {
   font-family: "Open Sans";
 }
 
+
+/* ============== */
 /* === NAVBAR === */
 
 .nav {
@@ -39,6 +42,8 @@ li {
   color: #fff;
 }
 
+
+/* ================= */
 /* === SECCIÓN 1 === */
 
 .seccion-uno {
@@ -52,41 +57,15 @@ li {
 }
 
 .triangulo-1 {
-  /* display: flex;
-  position: relative; */
   margin-left: 70px;
   width: 0;
   height: 0;
   border-right: 40px solid transparent;
   border-left: 40px solid transparent;
-  border-top: 40px solid rgba(221, 221, 221, 0.671);
-  /* border-bottom: 200px solid transparent; */
-}
-
-
-.triangulo-icons {
-  display: inline-flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 100%;
-}
-
-.triangulo-2 {
-  /* display: flex;
-  position: relative; */
-  /* height: 0; */
-  /* position: flex; */
-  /* margin-left: 10%; */
-  justify-content: flex-end !important;
-  margin-top: 5%;
-  border-right: 60px solid rgba(221, 221, 221, 0.671);
-  border-top: 60px solid transparent;
-  border-bottom: 60px solid transparent;
+  border-top: 40px solid rgba(221, 221, 221, 0.3);
 }
 
 h3 {
-  /* align-items: center;
-  text-align: justify; */
   font-size: 50px;
   font-weight: bolder;
   color: #244275;
@@ -96,9 +75,7 @@ h3 {
 }
 
 .parrafo {
-  /* width: 100%; */
   align-items: center;
-  /* margin-right: -60px !important; */
   margin-left: 100px;
   color: rgb(138, 138, 138);
 }
@@ -106,16 +83,30 @@ h3 {
 .parrafo-detalles {
   color: #244275;
   display: inline;
-  /* top: 0; */
+  margin-left: 60px;
+}
+
+.triangulo-icons {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 0 !important;
+  margin-top: -20px;
+}
+
+.triangulo-2 {
+  border-right: 90px solid rgba(221, 221, 221, 0.3);
+  border-top: 90px solid transparent;
+  border-bottom: 90px solid transparent;
 }
 
 .icono-amarillo {
   color: #ffd012;
   margin-left: 30px;
-  /* top: 0; */
-  -webkit-box-reflect: below 0px
-  linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
-  background-color: rgba(229, 255, 0, 0.1);
+  /* -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)); */
+  background-color: rgba(229, 255, 0, .1);
+  -webkit-box-shadow: 0px 10px 10px -2px rgba(255, 208, 18, 0.2);
   padding: 4px;
   border-radius: 10%;
 }
@@ -123,42 +114,52 @@ h3 {
 .icono-azul {
   color: #2949c7;
   margin-left: 90px;
-  -webkit-box-reflect: below 0px
-    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
   background-color: rgba(41, 73, 199, 0.1);
   padding: 4px;
-  border-radius: 10%;
+  border-radius: 10%; 
 }
-
-.schedule {
-  margin-top: 80px;
-}
-
 
 .div-dos {
   width: 50vw;
 }
 
 .nurse-img {
-  /* background-image: url('./img/female-nurse.jpeg'); */
-  height: 120% !important;
-  width: 100% !important;
+  height: 150% !important;
+  width: 100%;
 }
 
+
+/* ==================== */
 /* === VACCINE INFO === */
 
+.schedule {
+  margin-top: 20px;
+}
+
+.schedule-icon { 
+  -webkit-box-shadow: 0px 10px 10px /*-4px*/ rgba(41, 73, 199, 0.2);
+  background-color: rgba(41, 73, 199, 0.1);
+}
+
+.parrafo-detalles-schedule {
+  color: #244275;
+  display: inline;
+  margin-left: 10px;
+}
+
 .vaccine-card {
-  width: 67%;
+  width:60%;
   display: inline-flex;
-  margin-top: 150px;
-  margin-left: 4em;
+  margin-top: 100px;
+  margin-left: 65px;
   align-items: center !important;
   background-color: rgba(255, 255, 255, 0.9);
 }
 
 .vaccine-card-secundary {
   display: inline-block;
-  width: 90vw;
+  width: 45.6vw;
+  -webkit-box-shadow: 0px 3px 5px rgb(219, 219, 219);
 }
 
 .card-body {
@@ -168,7 +169,7 @@ h3 {
 
 .vaxIcons {
   color: #2949c7;
-  margin-left: 6rem;
+  margin-left: 80px;
   background-color: rgba(41, 73, 199, 0.1);
   padding: 4px;
   border-radius: 10%;
@@ -179,15 +180,20 @@ h3 {
 }
 
 .vaccineDate, .parrafoVacuna {
-  width: 80%;
+  width: 100%;
   display: flex;
   justify-content: center;
   margin-right: 100px;
 }
 
-.vaccineDate-text {
+.vaccineDate-text-1 {
+  margin-left: 5px;
+}
+
+
+.vaccineDate-text-2 {
   font-family: sans-serif;
-  font-size: 1.2em;
+  font-size: 18px;
   font-weight: 900;
   margin-left: 10px;
   display: inline-flex;
@@ -205,3 +211,6 @@ h3 {
   padding-left: 25px;
   padding-right: 25px;
 }
+
+/* ==================== */
+/* === VACCINE BRANDS === */
