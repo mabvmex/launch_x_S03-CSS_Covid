@@ -5,7 +5,6 @@
   font-family: "Open Sans";
 }
 
-
 /* ============== */
 /* === NAVBAR === */
 
@@ -44,7 +43,6 @@ li {
   border: 1px solid #fff;
 }
 
-
 /* ================= */
 /* === SECCIÓN 1 === */
 
@@ -68,7 +66,7 @@ li {
 }
 
 h1 {
-  /* font-size: 50px; */;
+  /* font-size: 50px; */
   font-weight: bolder;
   color: #244275;
   margin-top: 50px;
@@ -97,7 +95,8 @@ h1 {
   margin-top: -20px;
 }
 
-.triangulo-2, .triangulo-3 {
+.triangulo-2,
+.triangulo-3 {
   border-right: 90px solid rgba(221, 221, 221, 0.3);
   border-top: 90px solid transparent;
   border-bottom: 90px solid transparent;
@@ -107,7 +106,7 @@ h1 {
   color: #ffd012;
   margin-left: 30px;
   /* -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)); */
-  background-color: rgba(229, 255, 0, .1);
+  background-color: rgba(229, 255, 0, 0.1);
   -webkit-box-shadow: 0px 10px 10px -2px rgba(255, 208, 18, 0.2);
   padding: 4px;
   border-radius: 10%;
@@ -119,7 +118,7 @@ h1 {
   margin-left: 90px;
   background-color: rgba(41, 73, 199, 0.1);
   padding: 4px;
-  border-radius: 10%; 
+  border-radius: 10%;
 }
 
 .div-dos {
@@ -127,10 +126,11 @@ h1 {
 }
 
 .nurse-img {
-  height: 150% !important;
+  height: 150%;
   width: 100%;
+  object-fit:cover;
+ 
 }
-
 
 /* ==================== */
 /* === VACCINE INFO === */
@@ -139,7 +139,7 @@ h1 {
   margin-top: 20px;
 }
 
-.schedule-icon { 
+.schedule-icon {
   -webkit-box-shadow: 0px 10px 10px /*-4px*/ rgba(41, 73, 199, 0.2);
   background-color: rgba(41, 73, 199, 0.1);
 }
@@ -183,7 +183,8 @@ h1 {
   margin-left: 10px !important;
 }
 
-.vaccineDate, .parrafoVacuna {
+.vaccineDate,
+.parrafoVacuna {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -194,7 +195,6 @@ h1 {
   margin-left: 35px;
 }
 
-
 .vaccineDate-text-2 {
   font-family: sans-serif;
   font-size: 18px;
@@ -203,14 +203,14 @@ h1 {
   display: inline-flex;
 }
 
-.vaccine-card-button{
+.vaccine-card-button {
   width: 20%;
   text-align: center;
   align-items: center;
   padding: 12px;
 }
 
-.vaccine-card-button-1{
+.vaccine-card-button-1 {
   padding-bottom: 10px;
   padding-top: 10px;
   padding-left: 25px;
@@ -224,13 +224,13 @@ h1 {
 .logos-vacunas {
   width: 100%;
   display: inline-flex;
-  margin-top: 50px;
+  margin-top: 100px;
   justify-content: space-around !important ;
 }
 
 .logos-vacunas-1 > img {
-    width: 200px;
-    height: 100px; 
+  width: 200px;
+  height: 100px;
 }
 
 /* ==================== */
@@ -241,7 +241,6 @@ h1 {
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
-
 }
 
 .title-why {
@@ -261,8 +260,7 @@ h2 {
   justify-content: flex-end;
   width: 40%;
   height: 0px;
-  border-bottom: 2px solid rgba(221, 221, 221, 0.3);;
-  
+  border-bottom: 2px solid rgba(221, 221, 221, 0.3);
 }
 
 .parrafo-why {
@@ -273,30 +271,26 @@ h2 {
 /* === VACCINE BENEFITS === */
 .beneficios {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   margin-top: 50px;
-
 }
 
 .benefit {
   width: 300px;
   height: 280px;
-  /* margin-left: 30px;  */
   display: inline-block;
   text-align: left;
   border: 2px solid;
-  border-color:rgba(219, 219, 219, .2);
+  border-color: rgba(219, 219, 219, 0.2);
   border-radius: 5%;
-  /* background-color: rgba(255, 255, 255, 0.9); */
 }
-  .benefit-info {
-    margin: 20px;
-  }
+.benefit-info {
+  margin: 20px;
+}
 
 .benefit-icons {
   margin-left: 0 !important;
   font-size: 30px;
-
 }
 
 h4 {
@@ -304,17 +298,122 @@ h4 {
   margin-bottom: 20px;
 }
 
-  .virus:hover, .virus:hover i {
-    -webkit-box-shadow: 0px 10px 20px -4px  rgba(0, 51, 255, 0.295);   
-  }
-  
-  .antibodies:hover, .antibodies:hover i {
-    -webkit-box-shadow: 0px 10px 20px -4px  rgba(0, 51, 255, 0.295);
-  }
+.virus:hover,
+.virus:hover i {
+  -webkit-box-shadow: 0px 10px 20px -4px rgba(0, 51, 255, 0.295);
+}
 
-  .people:hover, .people:hover i {
-    -webkit-box-shadow: 0px 10px 20px -4px  rgba(0, 51, 255, 0.295);
-  }
-  .immunity:hover, .immunity:hover i {
-    -webkit-box-shadow: 0px 10px 20px -4px  rgba(0, 51, 255, 0.295);
-  }
+.antibodies:hover,
+.antibodies:hover i {
+  -webkit-box-shadow: 0px 10px 20px -4px rgba(0, 51, 255, 0.295);
+}
+
+.people:hover,
+.people:hover i {
+  -webkit-box-shadow: 0px 10px 20px -4px rgba(0, 51, 255, 0.295);
+}
+.immunity:hover,
+.immunity:hover i {
+  -webkit-box-shadow: 0px 10px 20px -4px rgba(0, 51, 255, 0.295);
+}
+
+/* =================================== */
+/* === PREPARATIONS BEFORE VACCINE === */
+
+.preparation {
+  width: 100%;
+  display: inline-flex;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.triangulo-4 {
+  border-left: 90px solid rgba(221, 221, 221, 0.3);
+  border-top: 90px solid transparent;
+  border-bottom: 90px solid transparent;
+}
+
+.linea-4 {
+  width: 60%;
+  height: 0px;
+  border-bottom: 2px solid rgba(221, 221, 221, 0.3);
+}
+
+.before-title {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  margin-right: 110px;
+  justify-content: space-around;
+}
+
+.parrafo-before {
+  margin-left: 55% !important;
+  margin-top: -50px;
+}
+
+.before-img {
+  margin-top: 100px;
+  display: inline-flex;
+}
+
+.blue-girl-background {
+  width: 100%;
+  height: 490px;
+  position: relative;
+  background: rgb(49, 79, 199);
+}
+
+.girl-mask {
+  width: 700px;
+  height: 680px;
+  margin-top: -190px;
+  background-image: url("./img/young-woman-mask-transparent.png");
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+
+.dos-before i {
+  font-size: 13px;
+}
+
+.box-collapsable, .card-body-before {
+  display: inline-flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  align-items: center;
+  padding: 15px;
+  width: 60vh;
+  border: 2px solid;
+  border-color: rgba(219, 219, 219, 0.2);
+  border-radius: 10px;
+}
+
+.azul-before {
+margin-left: 20px !important;
+margin-right: 10px !important;;
+}
+
+
+h5 {
+  margin: auto;
+  margin-left: 10px;
+}
+
+.texto-colapsable-before {
+  border-top-color: #fff !important;
+  border-radius: 0 0 10px 10px; /*  */
+  margin-top: -15px !important;
+  margin-bottom: 50px !important;
+}
+
+
+.boton:hover, .boton:hover i {
+  -webkit-box-shadow: 0px 10px 20px -4px rgba(0, 51, 255, 0.295);
+}
+
+.boton:hover, .card-body-before {
+  -webkit-box-shadow: 0px 10px 20px -4px rgba(0, 51, 255, 0.295);
+}
