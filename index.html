@@ -27,25 +27,26 @@
 </head>
 
 <body>
+  <!-- /* === NAVBAR === */ -->
   <nav class="navbar navbar-expand-sm navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand logo-barra" href="#">
+    <div class="container-fluid" id="navbar">
+      <a class="navbar-brand logo-barra" href="#navbar">
         <div class="vaccinationLogo">Vaccionation</div>
       </a>
 
       <div class="collapse navbar-collapse ligas" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Database</a>
+            <a class="nav-link active" aria-current="page" href="#database">Database</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Education</a>
+            <a class="nav-link" href="#education">Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">News</a>
+            <a class="nav-link" href="#" news>News</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Regulation</a>
+            <a class="nav-link" href="#regulation">Regulation</a>
           </li>
           <li>
             <button type="button" class="btn hoaxColor">Hoax Buster</button>
@@ -55,6 +56,8 @@
     </div>
   </nav>
 
+  <!-- /* ==== SECCIÓN 1 ==== */ -->
+  <!-- /* === FIGHT VIRUS === */ -->
   <section class="seccion-uno">
     <div class="div-uno">
       <div class="triangulo-1"></div>
@@ -91,6 +94,7 @@
     </div>
   </section>
 
+  <!-- /* === VACCINE INFO === */ -->
   <div class="vaccine-card">
     <div class="vaccine-card-secundary">
       <div>
@@ -119,29 +123,33 @@
       </div>
     </div>
 
-    <div class="vaccine-card-button">
-      <a href="#" class="hoaxColor btn vaccine-card-button-1">Submit</a>
+    <div>
+      <a href="#schedule" class="hoaxColor vaccine-card-button btn vaccine-card-button-1">Submit</a>
     </div>
   </div>
 
-  <section class="seccion-dos">
-    <div class="logos-vacunas">
-      <div class="logos-vacunas-1 astra">
-        <img src="./img/astraZeneca-logo.png" alt="astra-zeneca" />
-      </div>
-
-      <div class="logos-vacunas-1 sinovac">
-        <img src="./img/sinovac-logo.png" alt="sinovac" />
-      </div>
-
-      <div class="logos-vacunas-1 pfizer">
-        <img src="./img/pfizer-logo.png" alt="pfizer" />
-      </div>
-
-      <div class="logos-vacunas-1 moderna">
-        <img src="./img/moderna-logo.png" alt="moderna" />
-      </div>
+  <!-- /* === VACCINE BRANDS === */ -->
+  <div class="logos-vacunas">
+    <div class="logos-vacunas-1 astra">
+      <img src="./img/astraZeneca-logo.png" alt="astra-zeneca" />
     </div>
+
+    <div class="logos-vacunas-1 sinovac">
+      <img src="./img/sinovac-logo.png" alt="sinovac" />
+    </div>
+
+    <div class="logos-vacunas-1 pfizer">
+      <img src="./img/pfizer-logo.png" alt="pfizer" />
+    </div>
+
+    <div class="logos-vacunas-1 moderna">
+      <img src="./img/moderna-logo.png" alt="moderna" />
+    </div>
+  </div>
+
+  <!-- /* ==== SECCIÓN 2 ==== */ -->
+  <!-- /* === WHY VACCINE === */ -->
+  <section class="seccion-dos">
 
     <div class="info-why">
       <div class="title-why">
@@ -212,7 +220,7 @@
 
   </section>
 
-
+  <!-- /* === VACCINE BENEFITS === */ -->
   <section class="seccion-tres">
     <div class="preparation">
 
@@ -224,6 +232,8 @@
       </div>
     </div>
 
+
+    <!-- /* === PREPARATIONS BEFORE VACCINE === */ -->
     <p class="parrafo parrafo-before">
       The success of vaccines is strongly influenced by the <br />
       Strength of the body's immune system. Therefore, there are <br />
@@ -339,8 +349,127 @@
         </div>
 
       </div>
+    </div>
 
-  </section>∏
+  </section>
+
+
+  <!-- /* ======= SECCIÓN 4 ======= */ -->
+  <!-- /* === EMERGENCY CONTACT === */ -->
+  <section class="seccion-cuatro">
+
+
+    <div class="info-why info-emergency">
+      <div class="title-why title-emergency">
+        <h2>
+          Emergency Contact
+        </h2>
+      </div>
+
+      <div class="linea"></div>
+      <div class="triangulo-2"></div>
+    </div>
+
+    <p class="parrafo parrafo-why parrafo-emergency">
+      Contact one of the contacts below if you or your family feel <br />
+      unwell and have similar symtoms such as Covid-19, make <br />
+      sure you also take care of yourself before reporting to us:
+    </p>
+
+
+    <div class="seccion-uno">
+
+      <div class="div-uno">
+        <div class="emergency-contact-1">
+          <div class="beneficios">
+            <div class="benefit benefit-contact virus">
+              <div class="benefit-info benefit-info-contact">
+
+                <div class="metadata-1">
+                  <i class="icono-azul benefit-icons icono-contacto fas fa-phone-alt"></i>
+                </div>
+                <div class="metadata-2">
+                  <h4 class="h4-contacto">Call</h4>
+                  <p class="parrafo-contacto">021.123.145.14</p>
+                </div>
+              </div>
+              <div class="contact-button">
+                <a href="#call" class="emergency-btn btn">Call Now</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="beneficios">
+            <div class="benefit benefit-contact virus">
+              <div class="benefit-info benefit-info-contact">
+
+                <div class="metadata-1">
+                  <i class="icono-azul benefit-icons icono-contacto fas fa-comment-dots"></i>
+                </div>
+                <div class="metadata-2">
+                  <h4 class="h4-contacto">Chat</h4>
+                  <p class="parrafo-contacto">021.123.145.14</p>
+                </div>
+              </div>
+              <div class="contact-button">
+                <a href="#chat" class="emergency-btn btn">Chat Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="emergency-contact-2">
+
+          <div class="beneficios">
+            <div class="benefit benefit-contact virus">
+              <div class="benefit-info benefit-info-contact">
+
+                <div class="metadata-1">
+                  <i class="icono-azul benefit-icons icono-contacto fas fa-video"></i>
+                </div>
+                <div class="metadata-2">
+                  <h4 class="h4-contacto">Video Call</h4>
+                  <p class="parrafo-contacto">021.123.145.14</p>
+                </div>
+              </div>
+              <div class="contact-button">
+                <a href="#video-call" class="emergency-btn btn">Video Call Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="beneficios">
+            <div class="benefit benefit-contact virus">
+              <div class="benefit-info benefit-info-contact">
+
+                <div class="metadata-1">
+                  <i class="icono-azul benefit-icons icono-contacto fas fa-envelope"></i>
+                </div>
+                <div class="metadata-2">
+                  <h4 class="h4-contacto">Message</h4>
+                  <p class="parrafo-contacto">021.123.145.14</p>
+                </div>
+              </div>
+              <div class="contact-button">
+                <a href="#message" class="emergency-btn btn">Message Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="div-dos">
+        <div class="blue-man-doctor-background">
+          <div class="man-doctor"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
 
 
 
