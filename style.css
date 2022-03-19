@@ -5,16 +5,6 @@
   font-family: "Open Sans";
 }
 
-/* .navCyan {
-  width: 50vw;
-  margin-top: 0px;
-  margin-left: 50%;
-  border-bottom: rgba(140, 236, 236, 0.1) solid 80px;
-  position: absolute;
-  z-index: 1;
-} */
-
-
 /* ============== */
 /* === NAVBAR === */
 
@@ -25,6 +15,10 @@
   width: 100%;
   z-index: 1;
   background-color: transparent;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.9) !important;
 }
 
 .logo-barra {
@@ -140,8 +134,9 @@ h1 {
 }
 
 .nurse-img {
-  height: 150%;
+  height: 180%;
   width: 100%;
+  margin-top: -130px;
   object-fit: cover;
 }
 
